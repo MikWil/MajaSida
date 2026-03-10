@@ -1,6 +1,8 @@
 (() => {
   "use strict";
 
+  lucide.createIcons();
+
   // ---- Scroll-reveal via IntersectionObserver ----
   const revealEls = document.querySelectorAll(".reveal, .reveal-left, .reveal-right");
 
